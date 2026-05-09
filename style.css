@@ -189,21 +189,36 @@ section{
         display: flex;
         flex-direction: column-reverse;
     }
-}
 
 .nav-container .links{
-    display: none;
+        display: none;
 }
 
 .hamburg,.cancel{
-    display: block;
+        display: block;
 }
+
+.main-container .content{
+        width: 80%;
+}
+
+.main-container .image{
+        width: 60%;
+        height: 70%;
+}
+
+.content button{
+        margin: 15px 25%;
+    }
+}
+
+@media (max-width:440px){
+    .main-container .image{
+        width: 70%;
+        height: 50%;
+    }
 
 .main-container .content{
     width: 80%;
 }
-
-.main-container .image{
-    width: 50%;
-    height: 40%;
 }
