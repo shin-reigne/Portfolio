@@ -172,7 +172,38 @@ section{
     box-shadow: 0 0 40px 5px #b711e0;
 }
 
+.main-container .image{
+    width: 500px;
+    height: 80vh;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 50px #b711e0;
+}
 
+.main-container .image img{
+    width: 100%;
+}
 
+@media (max-width:884px){
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
+.nav-container .links{
+    display: none;
+}
 
+.hamburg,.cancel{
+    display: block;
+}
+
+.main-container .content{
+    width: 80%;
+}
+
+.main-container .image{
+    width: 50%;
+    height: 40%;
+}
