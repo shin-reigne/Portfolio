@@ -365,3 +365,16 @@ footer p{
     letter-spacing: 1px;
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills span {
+    background: #222;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
