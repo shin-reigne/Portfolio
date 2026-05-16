@@ -350,6 +350,144 @@ body::after{
     }
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skills span {
+    background: #222;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.contact-container{
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-info p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.contact-info i{
+    margin-right: 10px;
+    color: #00bcd4;
+}
+
+.contact-info a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    color: #00bcd4;
+}
+
+.contact-form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-form button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #00bcd4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover{
+    background: #0097a7;
+}
+
+.projects-page{
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.project-card{
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+.project-icon{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #00bcd4;
+}
+
+.project-card h2{
+    margin-bottom: 15px;
+}
+
+.project-card p{
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.project-card span{
+    display: inline-block;
+    background: #00bcd4;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project-buttons{
+    margin-top: 20px;
+}
+
+.project-buttons a{
+    text-decoration: none;
+    background: #00bcd4;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project-buttons a:hover{
+    background: #0097a7;
+}
+
 footer{
     width: 100%;
     text-align: center;
@@ -363,18 +501,4 @@ footer{
 footer p{
     font-size: 0.9rem;
     letter-spacing: 1px;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.skills span {
-    background: #222;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 20px;
 }
